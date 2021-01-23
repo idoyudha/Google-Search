@@ -1,0 +1,219 @@
+body {
+    font-family: arial, sans-serif;
+}
+
+.topnav {
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+img {
+    margin: 0;
+    position: absolute;
+    top: 25%;
+    left: 15px;
+    width: 92px;
+    height: 33px;
+}
+
+.appbar {
+    top: 60px;
+    position: relative;
+    width: 100% - 20px;
+    padding: 20px 30px;
+    color: #d93025;
+    font-size: 20px;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced-form {
+    top: 80px;
+    position: relative;
+    margin-left: 30px;
+}
+
+
+.find {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 10%;
+    font-size: 16px;
+    height: 30px;
+    color: #333;
+    vertical-align: middle;
+}
+
+.space {
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    height: 30px;
+    vertical-align: middle;
+    width: 31%;
+}
+
+.todo {
+    float: left;
+    font-size: 13px;
+    font-weight: 700;
+    height: 30px;
+    color: #777;
+    padding-left: 5px;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.all {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-width: 167px;
+    width: 10%;
+    height: 30px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.input {
+    float: left;
+    display: flex;
+    align-items: center;
+    min-width: 167px;
+    width: 31%;
+    height: 30px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+input[type=text], select {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    text-align: left;
+    width: 100%;
+}
+
+input[type=text]:focus {
+    outline: none;
+    border-radius: 1px;
+    border:1px solid cornflowerblue;
+}
+
+select:focus {
+    outline: none;
+    border-radius: 1px;
+    border:1px solid cornflowerblue;
+}
+
+input[type=text1] {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    text-align: left;
+    width: 45%;
+}
+
+input[type=text1]:focus {
+    outline: none;
+    border-radius: 1px;
+    border:1px solid cornflowerblue;
+}
+
+.to {
+    width: 40px;
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: #dddee1;
+}
+
+input[type=text2] {
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    text-align: left;
+    width: 45%;
+}
+
+input[type=text2]:focus {
+    outline: none;
+    border-radius: 1px;
+    border:1px solid cornflowerblue;
+}
+
+.exp {
+    float: left;
+    display: flex;
+    align-items: center;
+    color: #555;
+    width: 50%;
+    font-size: 11px;
+    padding-left: 15px;
+    vertical-align: middle;
+    position: relative;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+span {
+    color: #666;
+    font-family: monospace;
+    font-size: 11px;
+}
+
+.spacehead {
+    margin: 20px 0;
+    clear: both;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.advanced {
+    float: left;
+    align-items: center;
+    min-width: 167px;
+    width: 31%;
+    height: 30px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+    text-align: right;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.button-advanced {
+    float: right;
+    height: 30px;
+    min-width: 120px;
+    padding: 0 12px;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.button-advanced:hover {
+    outline: none;
+    border-radius: 1px;
+    border: 1px solid #2f5bb7;
+    background-color: #357ae8;
+}
